@@ -1,0 +1,6 @@
+:Namespace microkanren
+    'dfns'⎕NS ⍬
+    dfns.⎕CY 'dfns'
+var←{0=⊃0⍴⊂⍵} ⍝ could also use ⎕ML←1 and ∊ instead
+find←{⍺ (dfns.alget⍤1 0) ⍵} ⍝ add not found handling (see dfns reference)
+:EndNamespace
